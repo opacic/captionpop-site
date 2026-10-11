@@ -6,23 +6,26 @@
 <meta name="color-scheme" content="dark">
 <title>Privacy Policy · CaptionPop</title>
 <meta name="description" content="CaptionPop Privacy Policy.">
+<link rel="icon" href="assets/app-icon.png" type="image/png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <nav class="nav" aria-label="Primary">
-    <a class="brand" href="index.html">Caption<b>Pop</b></a>
+    <a class="brand" href="index.html"><img src="assets/app-icon.png" width="44" height="44" alt=""><span>CaptionPop</span></a>
     <div class="links">
-      <a href="privacy.html">Privacy</a>
+      <a href="index.html">Home</a>
+      <a href="privacy.html" aria-current="page">Privacy</a>
       <a href="terms.html">Terms</a>
       <a href="support.html">Support</a>
       <a href="data-deletion.html">Data deletion</a>
     </div>
   </nav>
 </header>
-<main>
+<main id="main-content">
 <section class="hero">
-  <div class="kicker">Last updated · 18 September 2026</div>
+  <div class="kicker">Last updated · 11 October 2026</div>
   <h1>Privacy Policy</h1>
   <p class="muted">This Privacy Policy explains how CaptionPop processes information when you use the Android app.</p>
 </section>
@@ -37,8 +40,10 @@
 <p>Depending on the features you use, CaptionPop may process:</p>
 <ul>
   <li><strong>Video content</strong> that you select or record and choose to process.</li>
-  <li><strong>Audio</strong> extracted from the selected video for speech transcription.</li>
-  <li><strong>Caption text</strong>, including automatically generated captions and edits you make.</li>
+  <li><strong>Audio</strong> extracted from the selected video for speech transcription. Caption text may also be sent to OpenAI for requested translation or suggested word emphasis, when these features are available in your release.</li>
+  <li><strong>Caption text</strong>, including automatically generated captions, edits you make and translations when that feature is available in your release.</li>
+  <li><strong>Visual and audio additions</strong>, including images or logos you add, their placement and timing, and custom text when available, as needed to render your requested video.</li>
+  <li><strong>Support reports</strong> you choose to send, including your description and relevant app version, Android version, device model, time and the issue details you include. The app prepares the report for you to review and send.</li>
   <li><strong>Technical identifiers</strong>, such as a random installation identifier, project/job identifiers and security tokens used to authorize your project and prevent abuse.</li>
   <li><strong>Purchase information</strong>, such as a Google Play product identifier, purchase token/confirmation and entitlement status for a Clean export.</li>
   <li><strong>Basic network and operational data</strong>, such as IP/network metadata and server logs that may be processed for security, reliability, rate limiting, fraud prevention and troubleshooting.</li>
@@ -49,16 +54,16 @@
 <p>A recording is first created in app-private storage on your device. It is uploaded for processing only after you choose to use the selected clip.</p>
 
 <h2>5. Why the information is used</h2>
-<p>CaptionPop uses the information above to provide the service you request, including uploading a selected clip, transcribing speech, generating and editing captions, rendering Free or Clean exports, delivering downloads, verifying one-time purchases, preventing abuse, securing the service and diagnosing failures.</p>
+<p>CaptionPop uses the information above to provide the service you request, including uploading a selected clip, transcribing speech, generating and editing captions, translating caption text when requested and available, rendering Free or Clean exports, delivering downloads, verifying one-time purchases, preventing abuse, securing the service and diagnosing failures.</p>
 
 <h2>6. Service providers</h2>
-<p>CaptionPop uses service providers to operate the app. Video audio or derived audio may be sent to <strong>OpenAI</strong> for speech transcription. <strong>Google Play</strong> processes in-app purchases and provides purchase verification information. <strong>Cloudflare</strong> infrastructure is used for parts of hosting, request handling, queues and temporary media storage. These providers process information under their own terms and applicable data-protection obligations.</p>
+<p>CaptionPop uses service providers to operate the app. Video audio or derived audio may be sent to <strong>OpenAI</strong> for speech transcription. Caption text may also be sent to OpenAI for requested translation or suggested word emphasis, when these features are available in your release. <strong>Google Play</strong> processes in-app purchases and provides purchase verification information. <strong>Cloudflare</strong> infrastructure is used for parts of hosting, request handling, queues and temporary media storage. These providers process information under their own terms and applicable data-protection obligations.</p>
 <p>CaptionPop does not sell uploaded videos, caption text or personal data, and does not use uploaded videos for advertising.</p>
 
 <h2>7. Retention and deletion</h2>
-<p>Server-side copies of uploaded source media, extracted audio, generated caption artifacts and rendered media are temporary. They are scheduled for automatic deletion after the processing/download window, with a target of approximately 24 hours. If an operation is already actively finishing at the cutoff, cleanup may run immediately after that operation safely settles.</p>
+<p>Server-side copies of uploaded source media, extracted audio, generated caption artifacts and rendered media are temporary. They are scheduled for automatic deletion after the processing/download window, within 24 hours. Opening or editing a local draft does not extend the server retention window. If an operation is already actively finishing at the cutoff, cleanup may run immediately after that operation safely settles.</p>
 <p>Limited technical, security, anti-abuse and purchase/entitlement records may be kept longer where necessary to operate the service, prevent fraud, restore a paid entitlement, meet accounting obligations or comply with law. Those records do not require us to keep your source video.</p>
-<p>Local working files on your device remain under your control until you delete or replace the project, clear CaptionPop app data, or uninstall the app. Videos or SRT files that you explicitly save to shared device storage are separate copies and are not deleted automatically by CaptionPop.</p>
+<p>Up to three local drafts in the 1.4 test release, including their saved edits, remain under your control until you delete or replace the project, clear CaptionPop app data, or uninstall the app. Videos or SRT files that you explicitly save to shared device storage are separate copies and are not deleted automatically by CaptionPop.</p>
 <p>For information about deletion requests, see <a href="data-deletion.html">Data deletion</a>.</p>
 
 <h2>8. Security</h2>

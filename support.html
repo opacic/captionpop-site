@@ -6,21 +6,24 @@
 <meta name="color-scheme" content="dark">
 <title>Support · CaptionPop</title>
 <meta name="description" content="CaptionPop support information.">
+<link rel="icon" href="assets/app-icon.png" type="image/png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header>
   <nav class="nav" aria-label="Primary">
-    <a class="brand" href="index.html">Caption<b>Pop</b></a>
+    <a class="brand" href="index.html"><img src="assets/app-icon.png" width="44" height="44" alt=""><span>CaptionPop</span></a>
     <div class="links">
+      <a href="index.html">Home</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
-      <a href="support.html">Support</a>
+      <a href="support.html" aria-current="page">Support</a>
       <a href="data-deletion.html">Data deletion</a>
     </div>
   </nav>
 </header>
-<main>
+<main id="main-content">
 <section class="hero">
   <div class="kicker">CaptionPop Support</div>
   <h1>Need help?</h1>
@@ -29,9 +32,10 @@
 <div class="card">
   <h2>What to include</h2>
   <ul>
-    <li>CaptionPop version, for example <code>0.8.0+52</code>.</li>
+    <li>CaptionPop version and build number, shown in the three-dot menu under <strong>About CaptionPop</strong>.</li>
     <li>Your Android version and phone model.</li>
     <li>A short description of what happened and the last screen or progress you saw.</li>
+    <li>For text issues, the caption language, selected font and a small example of the affected text. Share a screenshot only if you are comfortable with the content it contains.</li>
     <li>For a processing issue, the project/job identifier if the app displays one.</li>
     <li>For a Google Play purchase issue, the Google Play order number if available.</li>
   </ul>
@@ -43,11 +47,17 @@
 <h3>What is the difference between Free and Clean?</h3>
 <p>Free export includes a CaptionPop watermark. Clean export removes the watermark for that project after a one-time Google Play purchase. There is no subscription.</p>
 <h3>What video can I use?</h3>
-<p>The current app supports short MP4/MOV clips and can also record the screen on supported Android devices. The app shows the active duration and file-size limits before processing.</p>
+<p>The 1.4 test release supports MP4/MOV clips up to three minutes and can also record the screen on supported Android devices. The app shows the active duration and file-size limits before processing.</p>
+<h3>How do I return to a draft?</h3>
+<p>Open it from Drafts on the home screen. You can keep up to three local projects. At the limit, choose one to replace; it stays safe until the replacement finishes saving. Use Resume or Discard replacement if a previous attempt is unfinished.</p>
+<h3>Where are translation and custom text?</h3>
+<p>They are planned for the next 1.4.1 test release. Translation will be under Captions, separate from Spoken language. Custom text will be under Visual, then Add visual, then Text. They are not yet available in the 1.4 Play release.</p>
+<h3>Why is my Clean price different from someone else's?</h3>
+<p>The app uses the localized price supplied by Google Play. Market, currency and applicable taxes can affect the amount. The Play purchase screen is the final confirmation; local developer builds may show TEST MODE instead.</p>
 <h3>Where are my exported files?</h3>
 <p>Completed video exports are saved through Android's media system. SRT caption files can be saved through Android's file picker. Files you explicitly save remain on your device until you delete them.</p>
 <h3>How long does CaptionPop keep server files?</h3>
-<p>Temporary media and processing artifacts are scheduled for automatic deletion after the processing/download window, with a target of approximately 24 hours. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
+<p>Temporary media and processing artifacts are scheduled for automatic deletion after the processing/download window, within 24 hours. Opening or editing a draft does not renew its server window. Your local draft stays on the device. See the <a href="privacy.html">Privacy Policy</a> for details.</p>
 <h3>My Clean export failed after payment. What should I do?</h3>
 <p>Do not buy again immediately. Keep the project if possible and contact <a href="mailto:support@captionpop.app">support@captionpop.app</a> with the Google Play order number and a description of the failure so the delivery or entitlement can be checked.</p>
 </main>

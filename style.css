@@ -1,5 +1,5 @@
-/* CaptionPop brand tokens match the Android app. */
-:root{--bg:#17221A;--panel:#212F25;--panel2:#314636;--text:#f7faf7;--muted:#c0cdc2;--line:#526556;--accent:#B6FF45;--ink:#17221A;--max:1080px}
+/* CapPops website palette. */
+:root{--bg:#17221A;--panel:#212F25;--panel2:#314636;--text:#f7faf7;--muted:#c0cdc2;--line:#526556;--accent:#D7A4B2;--ink:#17221A;--max:1080px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:140px}
 body{margin:0;background:var(--bg);color:var(--text);font:1rem/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
@@ -28,7 +28,7 @@ p,li{color:var(--text);overflow-wrap:break-word}
 .pill{display:inline-block;background:var(--accent);color:var(--ink);border-radius:999px;font-size:.85rem;font-weight:750;padding:6px 12px}
 .actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:26px}
 .button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;border-radius:14px;background:var(--accent);color:var(--ink);font-weight:750;text-decoration:none;line-height:1.4;text-align:center}
-.button:hover{background:#c8ff78}
+.button:hover{background:#E4BDCA}
 .button-secondary{background:transparent;border:1px solid var(--line);color:var(--text)}
 .button-secondary:hover{background:var(--panel2)}
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0}
@@ -40,9 +40,9 @@ p,li{color:var(--text);overflow-wrap:break-word}
 .steps{list-style:none;padding:0;counter-reset:step}
 .steps li{counter-increment:step;position:relative;padding-top:60px}
 .steps li:before{content:counter(step);position:absolute;top:18px;left:24px;display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--ink);font-weight:800}
-.coming{margin:56px 0;padding:28px;background:var(--panel);border:1px solid var(--line);border-radius:22px}
-.coming h2{margin-top:8px}
-.coming .card{background:var(--bg)}
+.translations{margin:56px 0;padding:28px;background:var(--panel);border:1px solid var(--line);border-radius:22px}
+.translations h2{margin-top:8px}
+.translations .card{background:var(--bg)}
 .notice{padding:14px 18px;background:var(--panel2);border-left:4px solid var(--accent);border-radius:12px}
 .cta-panel{margin:48px 0;padding:28px;border:1px solid var(--line);border-radius:22px;background:var(--panel2)}
 .cta-panel h2{margin-top:0}
@@ -60,5 +60,5 @@ footer{border-top:1px solid var(--line)}
 .skip-link{position:absolute;top:8px;left:8px;transform:translateY(-180%);z-index:10;background:var(--accent);color:var(--ink);padding:12px}
 .skip-link:focus{transform:translateY(0)}
 @media(max-width:850px){.hero-layout{grid-template-columns:1fr}.hero-mark{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:600px){.nav{align-items:flex-start;gap:8px;padding:12px 20px}.links{gap:2px 14px}main{padding:28px 20px 48px}.hero{padding:14px 0 32px}.grid,.site-info .grid{grid-template-columns:1fr}.card{padding:20px}.coming,.cta-panel{padding:20px;margin:36px 0}.actions{align-items:stretch}.actions .button{flex:1 1 180px}.footer{padding-inline:20px}}
+@media(max-width:600px){.nav{align-items:flex-start;gap:8px;padding:12px 20px}.links{gap:2px 14px}main{padding:28px 20px 48px}.hero{padding:14px 0 32px}.grid,.site-info .grid{grid-template-columns:1fr}.card{padding:20px}.translations,.cta-panel{padding:20px;margin:36px 0}.actions{align-items:stretch}.actions .button{flex:1 1 180px}.footer{padding-inline:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

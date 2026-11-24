@@ -1,12 +1,12 @@
-# CaptionPop public site
+# CapPops public site
 
 Static pages for https://captionpop.app, hosted from this repository. All source is UTF-8; there is no build step or third-party frontend dependency.
 
 ## Current review
 
-The brand palette follows the app: background #17221A, cards #212F25, raised surfaces #314636, accent #B6FF45, outlines #526556. Supplied logo SVGs and a 512px icon are under assets/.
+The site uses background #17221A, cards #212F25, raised surfaces #314636, dusty rose accent #D7A4B2 and outlines #526556. The current gradient mark and matching 512px app icon are under assets/.
 
-Home distinguishes the available 1.4 Play tester release from the upcoming 1.4.1 features. Update those availability labels only after the corresponding Play release is accessible. Pricing text uses Google Play local pricing; do not hardcode one currency for every visitor.
+Home describes the 1.4.1 test release and notes that access and features depend on the test release assigned in Google Play. Update public availability after the production release goes live. Pricing text uses Google Play local pricing.
 
 For a local preview, run `python -m http.server 8080 --bind 127.0.0.1` from this directory. Open http://127.0.0.1:8080/.
 
